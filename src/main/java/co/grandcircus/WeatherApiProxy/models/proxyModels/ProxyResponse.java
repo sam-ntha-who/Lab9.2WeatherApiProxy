@@ -1,4 +1,4 @@
-package co.grandcircus.WeatherApiProxy.models;
+package co.grandcircus.WeatherApiProxy.models.proxyModels;
 
 import java.util.List;
 
