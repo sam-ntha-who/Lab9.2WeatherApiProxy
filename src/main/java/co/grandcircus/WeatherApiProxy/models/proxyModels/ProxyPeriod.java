@@ -2,7 +2,7 @@ package co.grandcircus.WeatherApiProxy.models.proxyModels;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import co.grandcircus.WeatherApiProxy.models.gridpointsModels.Periods;
+import co.grandcircus.WeatherApiProxy.models.forecastModels.Periods;
 
 public class ProxyPeriod extends Periods {
 	

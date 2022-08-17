@@ -1,23 +1,17 @@
 package co.grandcircus.WeatherApiProxy.models.forecastModels;
 
-public class Properties {
+import java.util.List;
 
-	private String id;
-	private String forecast;
+public class Properties {
 	
-	public String getId() {
-		return id;
+	private List<Periods> periods;
+
+	public List<Periods> getPeriods() {
+		return periods;
 	}
-	public void setId(String id) {
-		this.id = id;
+
+	public void setPeriods(List<Periods> periods) {
+		this.periods = periods;
 	}
-	public String getForecast() {
-		return forecast;
-	}
-	public void setForecast(String forecast) {
-		this.forecast = forecast;
-	}
-	
-	
 	
 }

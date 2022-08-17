@@ -1,4 +1,4 @@
-package co.grandcircus.WeatherApiProxy.models.gridpointsModels;
+package co.grandcircus.WeatherApiProxy.models.forecastModels;
 
 public class Periods {
 
